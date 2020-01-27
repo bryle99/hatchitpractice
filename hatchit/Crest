@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caraga Website - Home</title>
+  <?php $this->load->view('client/include/header_resources'); ?>
+  <style>
+    #map {
+        width: 100%;
+        height: 400px;
+        margin-top: 15px;
+      }
+    </style>
+</head>
+
+<body>
