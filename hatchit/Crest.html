@@ -7,23 +7,118 @@
   <title>Crest - Home</title>
 
   <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+  <!-- google fonts montserrat-->
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <!-- owl carousel-->
+  <link rel="stylesheet" href="resources/vendor/owl.carousel/assets/owl.carousel.css">
+  <link rel="stylesheet" href="resources/vendor/owl.carousel/assets/owl.theme.default.css">
+  <!-- animate.css-->
+  <link rel="stylesheet" href="resources/vendor/animate.css/animate.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img/favicon.png"> 
+  <link rel="stylesheet" type="text/css" href="resources/css/slick.css"/>
+
+  <link rel="stylesheet" type="text/css" href="resources/css/slick-theme.css"/>
 
   <style>
+    body{
+        font-family: montserrat;
+    }
   	.infobar{
   		background-color: #00498f;
-  		font-family: montserrat;
   		font-size: 10px;
   		color: #dcd3c8;
   	}
+    .centerbox{
+      
+    }
+    .logo{
+      width: 80px;
+      height: 60px;
+    }
+    .crestbrand{
+      font-size: 25;
+    }
   </style>
 
 </head>
 
 <body>
+  <header class="header border-bottom">
+    <div class="navbar infobar">
+      4TH FLOOR DG3 CORPORATION BUILDING, 72N ESCARIO STREET, CAPITOL SITE, CEBU CITY, PHILIPPINES 6000
+    </div>
+    <nav class="navbar navbar-expand-lg p-x-3">
+      <a class="navbar-brand" href="#home"> <img class="logo" src="resources/media/images/crest.png" alt=""> </a>
+      <a href="#home" class="navbar-brand font-weight-bold">CREST</a>
+        <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+        <div id="navbarcollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#home" class="nav-link link-scroll">Home</a></li>
+            <li class="nav-item"><a href="#aboutus" class="nav-link link-scroll">About Us</a></li>
+            <li class="nav-item"><a href="#training" class="nav-link link-scroll">Training Programs</a></li>
+            <li class="nav-item"><a href="#facilities" class="nav-link link-scroll">Facilities</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact Us</a></li>
+          </ul>
+        </div>
+    </nav>
+  </header>  
+  <!--
 		<div class="navbar infobar">
 			4TH FLOOR DG3 CORPORATION BUILDING, 72N ESCARIO STREET, CAPITOL SITE, CEBU CITY, PHILIPPINES 6000
 		</div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"> <img class="logo" src="resources/media/images/crest.png" alt=""> </a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+        <div class="this">
+      <div>your content</div>
+      <div>your content</div>
+      <div>your content</div>
+    </div>
+-->
+
+    
+    <div class="container centerbox">
+      yo
+    </div>
+
+    <script type="text/javascript" src="resources/js/jquery.min.js"></script>
+    <script type="text/javascript" src="resources/js/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.this').slick();
+      });
+    </script>
 </body>
 
 </html>
